@@ -1,0 +1,2 @@
+MATCH (Producto{Nombre: 'Gorra Rieker'})-[:CompradoCon]->(n:Producto) 
+RETURN n
